@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 100px;
+    background: #d2ebf357;
+}
+.left ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    font-size: 14px;
+}
+.left ul li:last-child{
+    padding: 4px;
+    padding-left: 16px;
+    border-left: 1px solid rgba(128, 128, 128, 0.712);
+}
+.left ul li a {
+    text-decoration: none;
+    color: black;
+}
+.left ul li a:hover {
+    color: #5F8B4C;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+.right ul {
+    display: flex;
+    list-style: none;
+}
+.fa-brands {
+    color: black;
+    padding: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-right: 1px solid rgba(128, 128, 128, 0.712);
+}
+.fa-brands:hover {
+    color: #5F8B4C;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: max-content;
+    background: white;
+}
+.ngao-ya-jamii-logo img {
+    width: 100px;
+    height: 120px;
+}
+.heading {
+    text-align: center;
+}
+.heading h2 {
+    color: black;
+}
+.heading h3 {
+    color: rgba(0, 0, 255, 0.781);
+    padding-top: 10px;
+    max-width: 813px;
+}
+.heading h4 {
+    color: #5F8B4C;
+}
+.nactvet-logo img {
+    width: 90px;
+    height: 100px;
+}
+nav {
+    position: relative;
+    background: #3652AD;
+    padding: 20px 100px;
+}
+nav ul {
+    display: flex;
+    justify-items: center;
+    list-style: none;
+    gap: 4rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+nav ul li a:hover {
+    color: #5F8B4C;
+    transition: 0.2s ease-in-out;    
+}
+.sub-menu {
+    display: none;
+    top: 6rem;
+    width: 250px;
+    background-color: white; 
+    z-index: 1; 
+}
+.sub-menu ul {
+    display: block;
+}
+.sub-menu ul li{
+    padding: 10px;
+    line-height: 24px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+    width: 100%;
+}
+.sub-menu ul li:last-child {
+    border: none;
+}
+.sub-menu ul a {
+    color: black;
+}
+nav ul li:hover .sub-menu {
+    position: absolute;
+    display: block;
+    top: 3.6rem;
+    animation: moves 0.5s;
+}
+@keyframes moves {
+    from{top: 6rem;}
+    to{top: 3.6rem;}
+}
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+.previous {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.63);   
+}
+.next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.63);
+}
+.other-links {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 2rem;
+    background: #d6ebf05e;
+    height: max-content; 
+}
+.links {
+    padding: 20px;
+    border: none;
+    border-radius: 30px;    
+    width: 400px;
+    height: max-content;
+    background: white;
+}
+.links:hover {
+    background-color: rgba(179, 178, 178, 0.185);
+}
+.links h1 {
+    color: #3652AD;
+    font-size: 26px;
+}
+.links > img {
+    margin-top: 30px;
+    width: 100%;
+}
+.links > p {
+    margin: 30px 0 30px;
+    font-size: 14px;
+    line-height: 24px;
+    width: 360px;
+}
+.links > p a{
+    text-decoration: none;
+    color: #083ff5e5;
+}
+.links ul {
+    margin: 30px 0 30px;
+    list-style: none;
+}
+.links ul li {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+    line-height: 36px;
+}
+.links ul a {
+    text-decoration: none;
+    color: black;
+}
+.links ul a:hover {
+    color: #5F8B4C;
+    cursor: pointer;
+}
+.footer {
+    display: block;
+    background: #032aac;
+    
+}
+.content {
+    display: flex;
+    padding: 200px 100px 50px;
+
+}
+.footer-content {
+    width: 300px;
+    padding: 2rem;
+}
+.footer-content h3 {
+    color: white;
+}
+.footer-content img {
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.footer-content p {
+    color: white;
+    line-height: 24px;
+}
+.footer-content p i {
+    color: green;
+    margin-right: 20px;
+}
+.social-media h3 {
+    margin-top: 40px;
+}
+.social-media .fa-brands{
+    margin-top: 30px;
+    border: none;
+    color: grey;
+}
+.social-media .fa-brands:hover {
+    color: #297c06;
+    opacity: 9;
+    transition: 0.5s ease-in-out;
+}
+.bottom {
+    padding: 30px 0 50px;
+    text-align: center;
+    color: white;
+}
