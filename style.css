@@ -210,9 +210,30 @@ nav ul li:hover .sub-menu {
     cursor: pointer;
 }
 .footer {
+    position: relative;
     display: block;
     background: #032aac;
     
+}
+.custom-shape-divider-top-1746189770 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1746189770 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 112px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1746189770 .shape-fill {
+    fill: #FFFFFF;
 }
 .content {
     display: flex;
