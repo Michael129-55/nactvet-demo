@@ -179,6 +179,10 @@ nav ul li:hover .sub-menu {
     color: #3652AD;
     font-size: 26px;
 }
+.dash {
+    color: #5F8B4C; 
+    margin-right: 10px;   
+}
 .links > img {
     margin-top: 30px;
     width: 100%;
@@ -212,8 +216,7 @@ nav ul li:hover .sub-menu {
 .footer {
     position: relative;
     display: block;
-    background: #032aac;
-    
+    background: linear-gradient(to right, #130370,#032aacce);    
 }
 .custom-shape-divider-top-1746189770 {
     position: absolute;
@@ -238,7 +241,6 @@ nav ul li:hover .sub-menu {
 .content {
     display: flex;
     padding: 200px 100px 50px;
-
 }
 .footer-content {
     width: 300px;
@@ -247,12 +249,21 @@ nav ul li:hover .sub-menu {
 .footer-content h3 {
     color: white;
 }
+.dash2 {
+    color: rgb(8, 248, 8);
+    margin-left: 10px;
+}
 .footer-content img {
     width: 80px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
+.footer-content {
+    line-height: 24px;
+    font-size: 14px;
+}
 .footer-content p {
+    display: inline-flex;
     color: white;
     line-height: 24px;
 }
@@ -272,6 +283,27 @@ nav ul li:hover .sub-menu {
     color: #297c06;
     opacity: 9;
     transition: 0.5s ease-in-out;
+}
+.footer-content ul {
+    list-style: none;
+    padding-top: 30px;
+}
+.footer-content li {
+    display: flex;
+    padding-top: 10px;
+}
+.footer-content li i {
+    color: grey;
+    margin-right: 20px;
+}
+.footer-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.footer-content a:hover {
+    color: #5F8B4C;
+    
 }
 .bottom {
     padding: 30px 0 50px;
