@@ -1,5 +1,6 @@
 //codes to change hero images manually
 var sildeIndex = 1;
+showDiv(sildeIndex);
 function changeDiv(n){
     showDiv(sildeIndex += n);
 }
@@ -13,5 +14,5 @@ function showDiv(n){
     }
     x[sildeIndex-1].style.display = 'block';
 }
-showDiv(sildeIndex);
+
 
